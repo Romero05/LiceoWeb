@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liceo Militar de Honduras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="LMH - LOGO.png" type="image/x-icon">
+
+</head>
+<body>
+    <section class="header">
+        <h1>Liceo Militar de Honduras</h1>
+        <h2>Registro de Datos</h2>
+    </section>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estudiantes.html">Estudiantes</a></li>
+            <li><a href="padres.html">Padres de Familia</a></li>
+            <li><a href="profesores.html">Docentes</li>
+            <li><a href="grados.html">Grados Académicos</a></li>
+            <li><a href="personal_admi.html">Personal administrativo</a></li>
+            <li><a href="personal_servicio.html">Personal de Servicio</a></li>
+            <li><a href="militar.html">Personal Militar</a></li>
+        </ul>
+        </nav>
+        <br>
+    <section class="formulario">
+        <h2>Académico</h2>
+        <form action="grados.php" method="post">
+            <h2>Seleccione la materia que desee saber</h2>
+
+            <label for="grado">Nombre del estudiante:</label>
+            <input type="text" id="nombre_alumno" name="nombre_alumno" required>
+            
+            <label for="grado">Grado:</label>
+            <input type="text" id="grado" name="grado" required>
+            
+            <label for="materia">Materia:</label>
+            <input type="text" id="materia" name="materia" required>
+            
+            <label for="profesor">Nombre del profesor:</label>
+            <input type="text" id="profesor" name="profesor" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

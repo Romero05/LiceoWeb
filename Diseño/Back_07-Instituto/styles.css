@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #2e3b2f;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content:start;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e4c3f;
+    padding: 20px;
+    text-align: center;
+    text-align: center;
+}
+
+    h1 {
+    color: #a8c3a0;
+    font-size: 2em;
+    text-align: center;
+    align-content: center;
+}
+
+
+section.formulario {
+    background-color: #3e4c3f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #a8c3a0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d4e4d1;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:hover, input[type="number"]:hover, input[type="email"]:hover, select:hover {
+    border-color: #1a2a4f;
+}
+
+button {
+    background-color: #4b6b4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a5a3f;
+}
+nav.nav-bar {
+    background-color: #3e4c3f;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+nav.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav.nav-bar ul li {
+    margin: 0 15px;
+}
+
+nav.nav-bar ul li a {
+    text-decoration: none;
+    color: #d4e4d1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav.nav-bar ul li a:hover {
+    color: #a8c3a0;
+}
+
+body {
+    padding-top: 60px;
+}
