@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    /* desplazamiento suave */
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 100px 20px;
+    min-width: 50svh;
+}
+#inicio {
+    background-color: #f8f8f8;
+}
+#servicios {
+    background-color: #e0e0e0;
+}
+#sobre-nosotros {
+    background-color: #d0d0d0;
+}
+#contacto {
+    background-color: #c0c0c0;
+}
+/*boton de arriba */
+#btnArriba {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+#btnArriba:hover {
+    background-color: #555;
+}

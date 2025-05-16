@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Imagenes</h1>
+    </header>
+    <section class="galeria">
+        <div class="slider">
+            <img src="img/pexels-garrettmorrow-682933.jpg" alt="Imagen-1" class="slide active"/>
+            <img src="img/pexels-jeshoots-21067.jpg" alt="Imagen-2" class="slide active"/>
+            <img src="img/pexels-pixabay-371924.jpg" alt="Imagen-3" class="slide active"/>
+
+            <!-- Botones de navegacion -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+
+        <!-- Puntos indicadores -->
+        <div class="dots-container">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+        </div>
+        </div>
+    </section>
+
+    <script src="Script.js"></script>
+</body>
+</html>
